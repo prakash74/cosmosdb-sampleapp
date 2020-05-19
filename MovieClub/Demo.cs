@@ -8,8 +8,8 @@ namespace MovieDocumentsClub
     public class Demo
     {
         private CosmosRepository<Movie> _repo;
-        private string endpoint = "https://localhost:8081";
-        private string key = "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==";
+        private string endpoint = "https://preddycosmosdb.documents.azure.com:443/";
+        private string key = "kWSMmIBdBYRzwWtY2EVwfAODN3pKBo8LGSx8u4Rr0ZmDymRz4wvxRV6sbl9SYa37SHE1R1uZHM5bwRJFJrJ8hw==";
         private string databaseName = "MoviesDb";
         private string collectionName = "Movie";
 
